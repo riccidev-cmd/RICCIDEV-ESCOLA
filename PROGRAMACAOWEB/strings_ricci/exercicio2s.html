@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <script>
+        var nome, m1 , m2 ,  pricar ;
+
+        nome = prompt("Digite o Seu Nome: ");
+        pricar = prompt("Digite =A= para maiusculas ou =a= para Minusculas: ");
+       
+
+        if (pricar == "A") {
+        m1 = nome.toUpperCase();    
+        alert("Seu Nome Sera Exibido em Letras Maiusculas: ");
+        } else if (pricar == "a"){
+        m2 = nome.toLowerCase();  
+        m2 = alert("Seu Nome Sera Exibido em Letras Minusculas: ");
+        } else {
+            alert("Opcao Invalida! Digite A ou a.")
+        }
+        alert("Seu Nome Digitado Foi:" + nome +
+        "\nSeu Nome em Letras Maiusculas: " + nome.toUpperCase() +
+        "\nSeu Nome em Letras Minusculas: " + nome.toLowerCase()
+        );
+
+
+    </script>
+    
+</body>
+</html>

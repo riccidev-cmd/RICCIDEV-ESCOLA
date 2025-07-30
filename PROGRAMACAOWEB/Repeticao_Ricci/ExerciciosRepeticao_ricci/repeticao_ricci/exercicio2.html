@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 2</title>
+</head>
+<body>
+    <script>
+        var peso , idade , cont = 0;
+        var somaI =  0 ,somap = 0, mediaI,mediaP;
+        do {
+            
+            idade = prompt("Digite a tua Idade: ");
+            idade = parseInt(idade);
+            peso = prompt("Digite o Peso");
+            peso = parseFloat(peso);
+            somaI += idade;
+            somap += peso;
+            cont ++;
+            
+        } while (cont < 10);
+        mediaI = somaI / 10;
+        mediaP = somap / 10;
+
+
+
+        document.write("Menu Idade e Peso<br>")
+        document.write("\nMedia Idade:<br> " + mediaI )
+        document.write("Media Peso:<br> " + mediaP )
+        
+        
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <title>Formulário</title>
+</head>
+<body style="background-color: blanchedalmond;font-family: 'Courier New', Courier, monospace;">
+    <form>
+        
+    
+       <h1 style="font-family: 'Times New Roman', Times, serif;">OSCAR<br></br></h1>
+            USUÁRIO: <input type="name" name="usuario" id="usuario" style="background-color: blanchedalmond;">
+            
+
+
+            
+           SENHA:  <input type="password" name="senha" id="senha" value="digite a senha" style="background-color: blanchedalmond;">
+              <br></br>
+
+<br></br>
+
+          
+Melhores Categorias:
+<br></br>
+<input type="checkbox" name="Categorias"id="Categorias" value="Ação" style="background-color: blanchedalmond;">Ação
+<br></br>
+<input type="checkbox" name="Categorias"id="Categorias" value="Terror" style="background-color: blanchedalmond;">Terror
+<br></br>
+<input type="checkbox" name="Categorias"id="Categorias" value="Aventura" style="background-color: blanchedalmond;">Aventura
+<br></br>
+<input type="checkbox" name="Categorias"id="Categorias" value="Suspense" style="background-color: blanchedalmond;">Suspense
+<br></br>
+<br></br>
+
+Filmes Indicados:
+<br></br>
+<input type="radio"name="Filmes" id="filme1" value="CDD" style="background-color: blanchedalmond;">Cidade de Deus
+<br></br>
+<input type="radio"name="Filmes" id="filme2" value="CDH" style="background-color: blanchedalmond;">Cidade dos Homens
+<br></br>
+<input type="radio"name="Filmes" id="filme3" value="Tropa" style="background-color: blanchedalmond;">Tropa de Elite
+<br></br>
+<input type="radio"name="Filmes" id="filme4" value="Procura" style="background-color: blanchedalmond;">A Procura da Felicidade
+<br></br>
+
+<br> </br>
+
+País de Onde Votou:
+<select name="Pais"id="Pais">
+    <option value="Brasil">Brasil</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Uruguai">Uruguai</option>
+     <option value="Colombia">Colombia</option>    
+
+
+
+</select>
+<br> <br>
+Deixe sua opinião sobre o Site:
+           <textarea cols="40" rows="5" name="opiniao"id="opiniao" style="background-color: blanchedalmond;">
+</textarea>
+<br> <br>
+
+<input type="reset" name="limpar" id="limpar" value="Limpar" onclick="limparCaixaRelatorio()">
+<input type="button" name="enviar" id="enviar" value="Enviar" onclick="mostrarRelatorio()">
+<br></br>
+<br></br> 
+
+</form>
+
+<div id="caixaRelatorio"></div>
+</body>
+
+<script src="scriptRelatorio.js" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 3</title>
+</head>
+<body>
+    <script>
+        var nome, tri,cont = 0, mtalto = "", lim = "";
+
+
+        do {
+            nome = prompt("Digite o Seu Nome:  ");
+            tri = prompt("Digite Seu Indice de Triglicerides: ");
+            tri = parseFloat(tri);
+
+        if (tri >= 150 && tri <= 199){
+         
+            lim += nome + "\n";
+
+        } else if (tri > 499){
+            
+            mtalto += nome + "\n";
+        } 
+
+        cont ++;
+        } while (cont < 3);
+        document.write("Menu<br>")
+        document.write("Pessoas com tri no Limite:<br>" + lim );
+        document.write("Pessoas com Tri bem Alto:<br> " + mtalto );
+
+    </script>
+    
+</body>
+</html>

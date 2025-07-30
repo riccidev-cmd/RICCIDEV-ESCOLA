@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 4 </title>
+</head>
+<body>
+    <script>
+         var num , cont = 0 , soma = 0 , menor = 0;
+
+         while (cont < 15) {
+            num = prompt("Digite Um Numero de 0 ha 200 15 vezes: ")
+            num  = parseFloat(num);
+            if (num >= 0 && num <= 200) {
+                if (num > 100){
+                    soma += num;
+                
+            } else {
+                menor += num;
+              
+            }  cont++;
+        } else {
+                alert("Numero Invalido")
+            }
+        }
+        alert("Soma dos Num:  " + soma + 
+        "\nSoma dos Numero Menores: " + menor
+        );
+
+    
+           
+           
+    
+         
+
+    </script>
+    
+</body>
+</html>

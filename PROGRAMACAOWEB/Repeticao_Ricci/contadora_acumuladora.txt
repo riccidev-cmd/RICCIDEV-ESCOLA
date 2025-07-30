@@ -1,0 +1,43 @@
+Variável contadora
+1)	A contadora, que é uma variável do tipo inteira é utilizada   
+na estrutura de repetição quando se deseja saber 
+a quantidade de valores digitados.
+2)	A variável contadora deve ser inteira. 
+3)	A variável contadora sempre deve ser iniciada.
+4)	A variável contadora precisa ser incrementada ou 
+decrementada cada vez que as instruções do laço 
+forem repetidas através do comando de incremento ou decremento:
+Exemplos:
+cont = cont + 1;   ou   cont++;
+ou
+cont = cont - 1;   ou   cont--;
+
+
+
+Variável acumuladora
+1)	A variável acumuladora que pode ser literal, real 
+ou inteira é utilizada na estrutura de repetição 
+quando se deseja acumular os valores digitados.
+2)	Quando a variável acumuladora é do tipo literal 
+o acúmulo gerará concatenação.
+3)	Quando a variável acumuladora é do tipo real 
+ou inteira irá acumular conforme a operação desejada em sua sintaxe
+4)	A variável acumuladora sempre deve ser iniciada.
+  se a variavel for literal iniciar com string vazia("")
+  se a variavel for numerica iniciar com zero (0)
+5)	A variável acumuladora  precisa receber o valor 
+de acumulo cada vez que as instruções do 
+laço forem repetidas através do comando de atribuição
+Exemplos:
+somaaltura= somaaltura + altura;
+saldo= saldo-retirada;
+
+nomeAlunos = nomeAlunos + "  "+ aluno;
+
+
+
+
+
+
+
+

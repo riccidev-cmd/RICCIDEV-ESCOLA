@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> exercicio 1 </title>
+</head>
+<body>
+    <script>
+        var idade; 
+        var maior = 0; 
+        for(cont=0; cont<15;cont++){
+        idade = window.prompt("Digite sua idade  " + (cont +  1) + " : " );
+        idade = parseInt(idade)
+
+        if (idade >= 25) {
+           document.write(" Pessoa " + (cont + 1 ) + " = " + idade + " anos ");
+            maior++;
+        } 
+        }
+        if (maior == 0) {
+            document.write("Ninguem tem mais de 25 anos:");
+            
+        }
+
+    </script>
+    
+</body>
+</html>
